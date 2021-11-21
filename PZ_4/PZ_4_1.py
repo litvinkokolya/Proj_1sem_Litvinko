@@ -11,7 +11,7 @@ while type(N) != int:
         N = input("Введите число")
 
 
-if N > 0:
+if N < 0:
     print('Введено число меньше 0')
 
 
