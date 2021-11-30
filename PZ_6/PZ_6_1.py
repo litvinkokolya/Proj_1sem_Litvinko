@@ -11,6 +11,7 @@ while n:
     n -= 1
 print('Изначальный список: ', a)
 
+
 for i in a[1::2]:
     print(i)
 

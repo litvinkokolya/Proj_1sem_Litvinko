@@ -14,4 +14,5 @@ def SortDec3(a, b, c):
 
     return(a1, b1, c1)
 
+
 print(SortDec3(a, b, c))

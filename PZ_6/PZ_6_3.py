@@ -13,6 +13,7 @@ while i < int(a):
     i += 1
 print('Изначальный список: ', ListN)
 
+
 t = 0
 while t < int(K):
     ListN.insert(0, 0)

@@ -14,4 +14,5 @@ for i in range(3, N):
     if arr[i - 1] + arr[i] > max_sum:
         max_sum = arr[i - 1] + arr[i]
         k = i - 1
+
 print('arr[{}] + arr[{}] = {} '.format(k + 1, k + 2, max_sum))
